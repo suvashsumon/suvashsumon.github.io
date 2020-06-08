@@ -1,7 +1,27 @@
-.info{
+.info {
     font-size: 27px;
+}
+.btn {
+    margin: auto;
+    margin-top: 20px;
+    font-size: 25px;
+    color: beige;
+    background-color: #c1bcbc6e;
+    padding: 5px 15px 10px 15px;
+    border: 2px solid beige;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.btn:hover {
+    background-color: darkgrey;
 }
 @media only screen and (max-width: 600px) {
     .info {
         font-size: 15px;
     }
+    .btn {
+        font-size: 13px;
+        padding: 5px 5px 5px 5px;
+        border: 1px solid beige;
+    }
+}
