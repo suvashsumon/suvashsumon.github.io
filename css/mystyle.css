@@ -6,10 +6,9 @@
     margin-top: 20px;
     font-size: 25px;
     color: beige;
-    background-color: #c1bcbc6e;
-    padding: 5px 15px 10px 15px;
+    padding: 5px 20px 10px 20px;
     border: 2px solid beige;
-    border-radius: 5px;
+    border-radius: 30px;
     text-decoration: none;
 }
 .btn:hover {
@@ -21,7 +20,7 @@
     }
     .btn {
         font-size: 13px;
-        padding: 5px 5px 5px 5px;
+        padding: 5px 10px 5px 10px;
         border: 1px solid beige;
     }
 }
