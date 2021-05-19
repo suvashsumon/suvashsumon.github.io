@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Suvash Kumar</title>
+    <link>https://suvashsumon.github.io/post/</link>
+    <description>Recent content in Posts on Suvash Kumar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 11 Nov 2020 19:21:54 +0600</lastBuildDate>
+    
+	<atom:link href="https://suvashsumon.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>এ আমার কোন দুঃস্বপ্ন নয়</title>
+      <link>https://suvashsumon.github.io/post/a-amar-kono-dussopno-noy/</link>
+      <pubDate>Wed, 11 Nov 2020 19:21:54 +0600</pubDate>
+      
+      <guid>https://suvashsumon.github.io/post/a-amar-kono-dussopno-noy/</guid>
+      <description>চকিতে ফেরানো মুখ,
+মেঘকালো চুলে ঢেকে থাকা
+তোমার ললাটে যদি এঁকে দিতে পারি</description>
+    </item>
+    
+    <item>
+      <title>আমার একটা অনুপ্রেরণা চাই</title>
+      <link>https://suvashsumon.github.io/post/%E0%A6%86%E0%A6%AE%E0%A6%BE%E0%A6%B0-%E0%A6%8F%E0%A6%95%E0%A6%9F%E0%A6%BE-%E0%A6%85%E0%A6%A8%E0%A7%81%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%B0%E0%A6%A3%E0%A6%BE-%E0%A6%9A%E0%A6%BE%E0%A6%87/</link>
+      <pubDate>Tue, 06 Oct 2020 18:30:34 +0600</pubDate>
+      
+      <guid>https://suvashsumon.github.io/post/%E0%A6%86%E0%A6%AE%E0%A6%BE%E0%A6%B0-%E0%A6%8F%E0%A6%95%E0%A6%9F%E0%A6%BE-%E0%A6%85%E0%A6%A8%E0%A7%81%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%B0%E0%A6%A3%E0%A6%BE-%E0%A6%9A%E0%A6%BE%E0%A6%87/</guid>
+      <description>আমার অনুপ্রেরণা চাই। হুম,
+ওইটাই - তোমরা যাকে মোটিভেশন বলো।</description>
+    </item>
+    
+    <item>
+      <title>HUGO : ডিরেক্টরি স্ট্রাকচার, কন্টেন্ট ম্যানেজমেন্ট ও অন্যান্য</title>
+      <link>https://suvashsumon.github.io/post/hugo-%E0%A6%A1%E0%A6%BF%E0%A6%B0%E0%A7%87%E0%A6%95%E0%A7%8D%E0%A6%9F%E0%A6%B0%E0%A6%BF-%E0%A6%B8%E0%A7%8D%E0%A6%9F%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%95%E0%A6%9A%E0%A6%BE%E0%A6%B0-%E0%A6%95%E0%A6%A8%E0%A7%8D%E0%A6%9F%E0%A7%87%E0%A6%A8%E0%A7%8D%E0%A6%9F-%E0%A6%AE%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A8%E0%A7%87%E0%A6%9C%E0%A6%AE%E0%A7%87%E0%A6%A8%E0%A7%8D%E0%A6%9F-%E0%A6%93-%E0%A6%85%E0%A6%A8%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%AF/</link>
+      <pubDate>Sun, 27 Sep 2020 13:24:21 +0600</pubDate>
+      
+      <guid>https://suvashsumon.github.io/post/hugo-%E0%A6%A1%E0%A6%BF%E0%A6%B0%E0%A7%87%E0%A6%95%E0%A7%8D%E0%A6%9F%E0%A6%B0%E0%A6%BF-%E0%A6%B8%E0%A7%8D%E0%A6%9F%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%95%E0%A6%9A%E0%A6%BE%E0%A6%B0-%E0%A6%95%E0%A6%A8%E0%A7%8D%E0%A6%9F%E0%A7%87%E0%A6%A8%E0%A7%8D%E0%A6%9F-%E0%A6%AE%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A8%E0%A7%87%E0%A6%9C%E0%A6%AE%E0%A7%87%E0%A6%A8%E0%A7%8D%E0%A6%9F-%E0%A6%93-%E0%A6%85%E0%A6%A8%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%AF/</guid>
+      <description>আমার আগের দুই আর্টিকেলে আমি HUGO দিয়ে ব্লগ সাইট তৈরি এবং সেটি Netlify এ পাবলিশ করার কৌশল নিয়ে আলোচনা করেছি। এই লেখাটিতে Hugo এর ডিরেক্টরি স্ট্রাকচার ও কন্টেন্ট ম্যানেজমেন্ট নিয়ে আলোচনা করার চেষ্টা করব। যেহেতু HUGO সাইট তৈরি সাধারণ সাইট তৈরির মত নয়, তাই এর ফাইল সিস্টেম ও কন্টেন্ট ম্যানেজমেন্ট অনেকটাই আলাদা। এই লেখাটি পড়ার আগে HUGO সম্পর্কে বেসিক ধারণা রাখা জরুরি। আমার আগের প্রকাশিত HUGO ব্যবহার করে ব্লগসাইট তৈরি এবং HUGO সাইট নেটলিফাই এ পাবলিশ করা লেখা দুইটি পড়ে আসতে পারেন।</description>
+    </item>
+    
+    <item>
+      <title>Vs Code Setup for Running Program Directly</title>
+      <link>https://suvashsumon.github.io/post/vs-code-setup-for-cpp-development-english/</link>
+      <pubDate>Thu, 24 Sep 2020 20:05:24 +0600</pubDate>
+      
+      <guid>https://suvashsumon.github.io/post/vs-code-setup-for-cpp-development-english/</guid>
+      <description>This post is published at medium.com on September 09, 2020. For copyright issue this post didn&amp;rsquo;t published here.</description>
+    </item>
+    
+    <item>
+      <title>কবিতা - ১</title>
+      <link>https://suvashsumon.github.io/post/kobita-1/</link>
+      <pubDate>Wed, 09 Sep 2020 23:30:03 +0600</pubDate>
+      
+      <guid>https://suvashsumon.github.io/post/kobita-1/</guid>
+      <description>কাজলকালো চোখের নিচে জোৎস্নাকালো দাগ,
+ফুলো নাকে জমিয়ে রাখা রাগ,</description>
+    </item>
+    
+    <item>
+      <title>ডিরেক্টলি কোড রান করার জন্য VS Code সেটআপ</title>
+      <link>https://suvashsumon.github.io/post/%E0%A6%A1%E0%A6%BF%E0%A6%B0%E0%A7%87%E0%A6%95%E0%A7%8D%E0%A6%9F%E0%A6%B2%E0%A6%BF-%E0%A6%95%E0%A7%8B%E0%A6%A1-%E0%A6%B0%E0%A6%BE%E0%A6%A8-%E0%A6%95%E0%A6%B0%E0%A6%BE%E0%A6%B0-%E0%A6%9C%E0%A6%A8%E0%A7%8D%E0%A6%AF-vs-code-%E0%A6%B8%E0%A7%87%E0%A6%9F%E0%A6%86%E0%A6%AA/</link>
+      <pubDate>Mon, 24 Aug 2020 13:24:21 +0600</pubDate>
+      
+      <guid>https://suvashsumon.github.io/post/%E0%A6%A1%E0%A6%BF%E0%A6%B0%E0%A7%87%E0%A6%95%E0%A7%8D%E0%A6%9F%E0%A6%B2%E0%A6%BF-%E0%A6%95%E0%A7%8B%E0%A6%A1-%E0%A6%B0%E0%A6%BE%E0%A6%A8-%E0%A6%95%E0%A6%B0%E0%A6%BE%E0%A6%B0-%E0%A6%9C%E0%A6%A8%E0%A7%8D%E0%A6%AF-vs-code-%E0%A6%B8%E0%A7%87%E0%A6%9F%E0%A6%86%E0%A6%AA/</guid>
+      <description>ভূমিকা আমি জেটব্রিন্স এর প্রোডাক্ট ব্যবহার করে অভ্যস্ত। প্রোজেক্ট টাইপ কাজের জন্য আমি সেগুলোই ব্যবহার করি। তবে ছোট প্রজেক্ট বা সিংগেল ফাইল নিয়ে কাজ করার জন্য জেটব্রিন্স এর আইডিই ব্যবহার করা আসলে মশা মারতে কামান দাগার মত ব্যাপার। কেননা, এই আইডিইগুলো বেশ ভারী আর কিছুটা স্লো। সে ক্ষেত্রে আসলে কোন বিকল্প ভাবতেই হয়। আমরা এই সমস্যা সমাধান করতে পারি VS Code এর মাধ্যমে। যেহেতু কম্পাইলার বা ইন্টারপ্রেটার ইন্সটল করতেই হয়, তাই সামান্য কিছু সেটআপ দিয়ে এই সুবিধাটুকু নিতে পারি।</description>
+    </item>
+    
+    <item>
+      <title>HUGO সাইট নেটলিফাই এ পাবলিশ করা</title>
+      <link>https://suvashsumon.github.io/post/%E0%A6%B9%E0%A7%81%E0%A6%97-%E0%A6%B8%E0%A6%BE%E0%A6%87%E0%A6%9F-%E0%A6%A8%E0%A7%87%E0%A6%9F%E0%A6%B2%E0%A6%BF%E0%A6%AB%E0%A6%BE%E0%A6%87-%E0%A6%8F-%E0%A6%AA%E0%A6%BE%E0%A6%AC%E0%A7%8D%E0%A6%B2%E0%A6%BF%E0%A6%B6%E0%A6%BF%E0%A6%82/</link>
+      <pubDate>Wed, 12 Aug 2020 20:00:01 +0600</pubDate>
+      
+      <guid>https://suvashsumon.github.io/post/%E0%A6%B9%E0%A7%81%E0%A6%97-%E0%A6%B8%E0%A6%BE%E0%A6%87%E0%A6%9F-%E0%A6%A8%E0%A7%87%E0%A6%9F%E0%A6%B2%E0%A6%BF%E0%A6%AB%E0%A6%BE%E0%A6%87-%E0%A6%8F-%E0%A6%AA%E0%A6%BE%E0%A6%AC%E0%A7%8D%E0%A6%B2%E0%A6%BF%E0%A6%B6%E0%A6%BF%E0%A6%82/</guid>
+      <description>HUGO ব্যবহার করে ব্লগসাইট তৈরি - এই লিখাটিতে হুগো দিয়ে সাইট তৈরির মৌলিক বিষয় নিয়ে আলোচনা করেছিলাম। সাইট যেহেতু শুধু হার্ডডিস্কে রেখে দেওয়ার জিনিস নয় তাই তৈরির সাথে সাথে সেটি পাবলিশ করাও জরুরি একটি কাজ। হুগো সাইট প্রায় সব ধরণের সার্ভারে হোস্ট করা সম্ভব। এই আর্টিকেলে আমি নেটলিফাই ব্যবহার করে হোস্ট করব। সেজন্য আমাদের দরকার git, github সম্পর্কে বেসিক ধারণা। একই সাথে আপনার পিসিতে Git ইন্সটল থাকতে হবে। Git ডাউনলোড করা যাবে git-scm.</description>
+    </item>
+    
+    <item>
+      <title>HUGO ব্যবহার করে ব্লগসাইট তৈরি</title>
+      <link>https://suvashsumon.github.io/post/hugo-deye-blogsite-toiri/</link>
+      <pubDate>Fri, 31 Jul 2020 20:34:51 +0600</pubDate>
+      
+      <guid>https://suvashsumon.github.io/post/hugo-deye-blogsite-toiri/</guid>
+      <description>ভূমিকা মাসখানেক ওয়ার্ডপ্রেস ব্যবহার করে একরকম বাধ্য হয়েই স্ট্যাটিক সাইটে মুভ করলাম। ওয়ার্ডপ্রেস ছাড়ার মূল কারন হলো - সার্ভার খরচ এবং সার্ভার ডাউন সমস্যা, ওয়ার্ডপ্রেসের ধীরগতি, SSL সার্টিফিকেট প্রবলেম ইত্যাদি। শিক্ষানবিশ হিসেবে আমার জন্য সার্ভার ও SSL সার্টিফিকেটের খরচ বহন করা সত্যিই কঠিন। আর ফ্রি হোস্টিং এর ব্যপার বোধহয় সবারই জানা। প্রথমে জেকিল ব্যবহার করে সাইট বানাব ভেবেছিলাম কিন্তু কোন অদ্ভুত কারনে জেকিল আমার পিসিতে ইন্সটলই করতে পারলাম না। শেষ পর্যন্ত হুগো ব্যবহারের সিদ্ধান্ত নিলাম। আর প্রথমবার হুগো সাইট ব্রাউজারে দেখে আমার অনুভূতি ছিল - &amp;ldquo;আরেহ্!</description>
+    </item>
+    
+    <item>
+      <title>JAR ফাইলকে EXE তে রুপান্তর - দ্বিতীয় পর্ব</title>
+      <link>https://suvashsumon.github.io/post/jar-to-exe-2/</link>
+      <pubDate>Thu, 23 Jul 2020 21:06:32 +0600</pubDate>
+      
+      <guid>https://suvashsumon.github.io/post/jar-to-exe-2/</guid>
+      <description>আগের পর্বে আমরা আমাদের jar ফাইলকে বান্ডল jre দিয়ে রি-কম্পাইল করেছিলাম। লেখাটি পড়তে পারেন এই লিঙ্ক থেকে। এই পর্বে রি-কম্পাইল করা ফাইলটির সেটআপ ফাইল বা ইন্সটলার তৈরি করবো।</description>
+    </item>
+    
+    <item>
+      <title>JAR ফাইলকে EXE তে রুপান্তর - প্রথম পর্ব</title>
+      <link>https://suvashsumon.github.io/post/jar-to-exe-1/</link>
+      <pubDate>Thu, 23 Jul 2020 20:39:31 +0600</pubDate>
+      
+      <guid>https://suvashsumon.github.io/post/jar-to-exe-1/</guid>
+      <description>বেশ কিছুদিন আগে জাভা দিয়ে একটা ছোট্ট অ্যাপ্লিকেশন তৈরি করেছিলাম। কম্পিটিটিভ প্রোগ্রামিং এ হেল্পফুল একটা সফটওয়্যার। অনেকগুলো টিউটোরিয়াল দেখে exe ও বানিয়েছিলাম। আমার পিসিতে (যেটাতে আমি সফটওয়্যারটি ডেভেলপ করেছিলাম) ভালভাবে চললেও, অন্য পিসিতে jre not found problem দেখাচ্ছিল। অনেক চেষ্টা করেও সমস্যাটার সমাধান পাচ্ছিলাম না। আমি চাচ্ছিলাম যেন ইউজারকে jre ইন্সটল করতে না হয়। বান্ডল jre সিস্টেম ব্যাবহার করার চেষ্টা করেও সেবার ব্যর্থ হই। অল্প কিছুদিন আগে এই সমস্যা সমাধান করতে পেরেছি। আসলে আমার ফলো করা টিউটোরিয়ালগুলো ডিটেইলস ছিল না। আমার মনে হয় ডিটেইলস টিউটোরিয়াল ইন্টারনেটে নেই বললেই চলে। একারনেই নতুনদের আমার মত সমস্যায় পড়তে হয়। আমার এই লিখাটি সেইসব নতুনদের জন্য।</description>
+    </item>
+    
+    <item>
+      <title>Cmder : একটি অসাধারণ টার্মিনাল ইমুলেটর</title>
+      <link>https://suvashsumon.github.io/post/cmder-the-best-terminal-ever/</link>
+      <pubDate>Thu, 23 Jul 2020 11:08:13 +0600</pubDate>
+      
+      <guid>https://suvashsumon.github.io/post/cmder-the-best-terminal-ever/</guid>
+      <description>উইন্ডোজ অপারেটিং সিস্টেম ব্যবহার করেন কিন্তু টার্মিনালের খুব প্রয়োজন পড়ে? Powershell বা dufault cmd পছন্দ হয় না?</description>
+    </item>
+    
+    <item>
+      <title>পাইথন দিয়ে CSV হ্যান্ডেলিং</title>
+      <link>https://suvashsumon.github.io/post/csv-handelling-using-python/</link>
+      <pubDate>Thu, 23 Jul 2020 10:54:55 +0600</pubDate>
+      
+      <guid>https://suvashsumon.github.io/post/csv-handelling-using-python/</guid>
+      <description>প্রোগ্রামিং লাংগুয়েজ দিয়ে ডাটাবেজ হ্যান্ডল করা একটা অতি সাধারণ ব্যাপার। তবে এম এস এক্সেল শিট হ্যান্ডল করা খুব বেশি পরিচিত নয়। এই ব্লগটিতে আমি চেষ্টা করব পাইথন দিয়ে এম এস এক্সেল শিট হ্যান্ডল করার কৌশল আলোচনা করতে। হয়তো আপনার কখনও দরকার পড়বে না, অথবা পড়বে। যদি আপনি ব্লগটি শেষ পর্যন্ত পড়তে চান তো স্বাগতম। চলুন শুরু করা যাক।</description>
+    </item>
+    
+  </channel>
+</rss>

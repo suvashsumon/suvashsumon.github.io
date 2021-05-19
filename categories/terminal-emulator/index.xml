@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Terminal Emulator on Suvash Kumar</title>
+    <link>https://suvashsumon.github.io/categories/terminal-emulator/</link>
+    <description>Recent content in Terminal Emulator on Suvash Kumar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 23 Jul 2020 11:08:13 +0600</lastBuildDate>
+    
+	<atom:link href="https://suvashsumon.github.io/categories/terminal-emulator/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Cmder : একটি অসাধারণ টার্মিনাল ইমুলেটর</title>
+      <link>https://suvashsumon.github.io/post/cmder-the-best-terminal-ever/</link>
+      <pubDate>Thu, 23 Jul 2020 11:08:13 +0600</pubDate>
+      
+      <guid>https://suvashsumon.github.io/post/cmder-the-best-terminal-ever/</guid>
+      <description>উইন্ডোজ অপারেটিং সিস্টেম ব্যবহার করেন কিন্তু টার্মিনালের খুব প্রয়োজন পড়ে? Powershell বা dufault cmd পছন্দ হয় না?</description>
+    </item>
+    
+  </channel>
+</rss>

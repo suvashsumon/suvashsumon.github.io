@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head>
+  <meta name="google-site-verification" content="7Yr5eqh5fi3Sr2_vYemR3wk5pmBWV6qv9f4K8jIKOt0" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="suvashkumar, Suvash Kumar, Bangla Blog, Computer Science, enggsk">
+  <meta name="generator" content="Hugo 0.68.3" />
+
+  <title>পাইথন দিয়ে CSV হ্যান্ডেলিং &middot; Suvash Kumar</title>
+
+  <meta name="description" content="" />
+
+  
+
+<meta itemprop="name" content="পাইথন দিয়ে CSV হ্যান্ডেলিং">
+<meta itemprop="description" content="প্রোগ্রামিং লাংগুয়েজ দিয়ে ডাটাবেজ হ্যান্ডল করা একটা অতি সাধারণ ব্যাপার। তবে এম এস এক্সেল শিট হ্যান্ডল করা খুব বেশি পরিচিত নয়। এই ব্লগটিতে আমি চেষ্টা করব পাইথন দিয়ে এম এস এক্সেল শিট হ্যান্ডল করার কৌশল আলোচনা করতে। হয়তো আপনার কখনও দরকার পড়বে না, অথবা পড়বে। যদি আপনি ব্লগটি শেষ পর্যন্ত পড়তে চান তো স্বাগতম। চলুন শুরু করা যাক।">
+<meta itemprop="datePublished" content="2020-07-23T10:54:55&#43;06:00" />
+<meta itemprop="dateModified" content="2020-07-23T10:54:55&#43;06:00" />
+<meta itemprop="wordCount" content="443">
+
+
+
+<meta itemprop="keywords" content="" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="পাইথন দিয়ে CSV হ্যান্ডেলিং"/>
+<meta name="twitter:description" content="প্রোগ্রামিং লাংগুয়েজ দিয়ে ডাটাবেজ হ্যান্ডল করা একটা অতি সাধারণ ব্যাপার। তবে এম এস এক্সেল শিট হ্যান্ডল করা খুব বেশি পরিচিত নয়। এই ব্লগটিতে আমি চেষ্টা করব পাইথন দিয়ে এম এস এক্সেল শিট হ্যান্ডল করার কৌশল আলোচনা করতে। হয়তো আপনার কখনও দরকার পড়বে না, অথবা পড়বে। যদি আপনি ব্লগটি শেষ পর্যন্ত পড়তে চান তো স্বাগতম। চলুন শুরু করা যাক।"/>
+
+
+<meta property="og:title" content="পাইথন দিয়ে CSV হ্যান্ডেলিং" />
+<meta property="og:description" content="প্রোগ্রামিং লাংগুয়েজ দিয়ে ডাটাবেজ হ্যান্ডল করা একটা অতি সাধারণ ব্যাপার। তবে এম এস এক্সেল শিট হ্যান্ডল করা খুব বেশি পরিচিত নয়। এই ব্লগটিতে আমি চেষ্টা করব পাইথন দিয়ে এম এস এক্সেল শিট হ্যান্ডল করার কৌশল আলোচনা করতে। হয়তো আপনার কখনও দরকার পড়বে না, অথবা পড়বে। যদি আপনি ব্লগটি শেষ পর্যন্ত পড়তে চান তো স্বাগতম। চলুন শুরু করা যাক।" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://suvashsumon.github.io/post/csv-handelling-using-python/" />
+<meta property="article:published_time" content="2020-07-23T10:54:55+06:00" />
+<meta property="article:modified_time" content="2020-07-23T10:54:55+06:00" />
+
+
+
+  <link type="text/css"
+        rel="stylesheet"
+        href="/css/print.css"
+        media="print">
+
+  <link type="text/css"
+        rel="stylesheet"
+        href="/css/poole.css">
+
+  <link type="text/css"
+        rel="stylesheet"
+        href="/css/hyde.css">
+
+  
+<style type="text/css">
+  .sidebar {
+    background-color: #2980b9;
+  }
+
+  .read-more-link a {
+    border-color: #2980b9;
+  }
+
+  .pagination li a {
+    color: #2980b9;
+    border: 1px solid #2980b9;
+  }
+
+  .pagination li.active a {
+    background-color: #2980b9;
+  }
+
+  .pagination li a:hover {
+    background-color: #2980b9;
+    opacity: 0.75;
+  }
+
+  footer a,
+  .content a,
+  .related-posts li a:hover {
+    color: #2980b9;
+  }
+</style>
+
+
+
+  <link type="text/css" rel="stylesheet" href="/css/blog.css">
+
+  <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap">
+
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+        integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk="
+        crossorigin="anonymous" />
+
+  <link rel="apple-touch-icon-precomposed"
+        sizes="144x144"
+        href="/apple-touch-icon-144-precomposed.png">
+
+  <link rel="shortcut icon" href="/images/suvash.ico">
+
+  
+  </head>
+<body>
+  <aside class="sidebar">
+  <div class="container">
+    <div class="sidebar-about">
+      
+        
+        <div class="author-image">
+          <img src="/images/suvash.png" class="img-circle img-headshot center" alt="Profile Picture">
+        </div>
+        
+      
+
+      <h1>Suvash Kumar</h1>
+
+      
+      <p class="lead">Developer &amp; Blogger</p>
+      
+    </div>
+
+    <nav>
+      <ul class="sidebar-nav">
+        <li>
+          <a href="https://suvashsumon.github.io/">Home</a>
+        </li>
+        <li>
+          <a href="/posts/">Posts</a>
+        </li><li>
+          <a href="/categories/">Categories</a>
+        </li><li>
+          <a href="/about-me/">About Me</a>
+        </li><li>
+          <a href="https://medium.com/@suvashkumar.naogaon">Posts at Medium</a>
+        </li>
+      </ul>
+    </nav>
+
+    <section class="social-icons">
+      
+      <a href="https://www.linkedin.com/in/suvash-kumar-544b5917b" rel="me" title="Linkedin" target="_blank">
+        <i class="fab fa-linkedin" aria-hidden="true"></i>
+      </a>
+      
+      <a href="https://github.com/suvashsumon" rel="me" title="GitHub" target="_blank">
+        <i class="fab fa-github" aria-hidden="true"></i>
+      </a>
+      
+      <a href="https://twitter.com/SuvashK13937007" rel="me" title="Twitter" target="_blank">
+        <i class="fab fa-twitter" aria-hidden="true"></i>
+      </a>
+      
+      <a href="https://facebook.com/suvashkumar.sumon" rel="me" title="Facebook" target="_blank">
+        <i class="fab fa-facebook" aria-hidden="true"></i>
+      </a>
+      
+      <a href="mailto:suvashkumar.naogaon@gmail.com" rel="me" title="Email" target="_blank">
+        <i class="fab fa fa-envelope" aria-hidden="true"></i>
+      </a>
+      
+      <a href="https://medium.com/@suvashkumar.naogaon" rel="me" title="Medium" target="_blank">
+        <i class="fab fab fa-medium" aria-hidden="true"></i>
+      </a>
+      
+    </section>
+  </div>
+</aside>
+
+
+  <main class="content container">
+  <div class="post">
+  <h1>পাইথন দিয়ে CSV হ্যান্ডেলিং</h1>
+
+  <div class="post-date">
+    <time datetime="2020-07-23T10:54:55&#43;0600">Jul 23, 2020</time> &middot; 3 min read
+  </div>
+  <hr>
+
+  <p>প্রোগ্রামিং লাংগুয়েজ দিয়ে ডাটাবেজ হ্যান্ডল করা একটা অতি সাধারণ ব্যাপার। তবে এম এস এক্সেল শিট হ্যান্ডল করা খুব বেশি পরিচিত নয়। এই ব্লগটিতে আমি চেষ্টা করব পাইথন দিয়ে এম এস এক্সেল শিট হ্যান্ডল করার কৌশল আলোচনা করতে। হয়তো আপনার কখনও দরকার পড়বে না, অথবা পড়বে। যদি আপনি ব্লগটি শেষ পর্যন্ত পড়তে চান তো স্বাগতম। চলুন শুরু করা যাক।</p>
+<h3 id="এম-এস-একসল-ফইল-টইপ">এম এস এক্সেল ফাইল টাইপ</h3>
+<p>এম এস এক্সেল এর দুটি ফাইল টাইপ আছে – .csv (Comma Separated Values) ও .xlxs (Microsoft Excel Worksheet)। দুটোর পার্থক্য ঠিক চোখে পড়েনা। কাজ এবং ফাংশনালিটি প্রায় একই। তবে .xlxs বাইনারি ফাইল হওয়ায় Microsoft Excel বাতিত অন্য সফটওয়ারে ওপেন করলে পড়া অসম্ভব। কিন্তু .csv ফাইল যেকোনো text editor এ দেখা ও এডিট করা সম্ভব। আর এই কারনেই .csv হ্যান্ডল করা সহজ।</p>
+<h3 id="csv-বসতরত">CSV বিস্তারিত</h3>
+<p>একটি csv ফাইল হল এক ধরণের plain text ফাইল যা ডেটা সাজানোর জন্য নির্দিষ্ট কাঠামো ব্যবহার করে। ধরুন Microsoft Excel এ salary.csv ফাইল দেখতে এরকম –
+<img src="/images/july20/csv-file-view.jpg" alt="CSV File View"></p>
+<p>কিন্তু text editor এ সেটি এরকম দেখাবে-</p>
+<pre><code>Name,Age,Salary
+Ashik,24,20000
+Sumon,28,22000
+Mamun,34,40000
+</code></pre><p>এই Name,Age,Salary লাইনটি হল হেডার আর পরের লাইনগুলো হল সারি বা row। দেখা যাচ্ছে ভ্যালুগুলো কমা দ্বারা পৃথক করা আছে। এই কমা কে বলা হয় delimiter। অন্যান্য delimiter গুলোর মধ্য ট্যাব, :, ; বেশি ব্যাবহার হয়।</p>
+<h3 id="কভব-রড-করত-হয">কিভাবে রিড করতে হয়?</h3>
+<p>আমরা csv লাইব্রেরী ব্যবহার করতে পারি। পাইথনে csv মডিউল বিল্ড ইন থাকে। এর open() মেথডের মাধ্যমে csv ফাইল রিড করা যায়। উপরের csv ফাইল রিড করার কোড হবে –</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">import</span> csv
+<span style="color:#66d9ef">with</span> open(<span style="color:#e6db74">&#39;salary.csv&#39;</span>, <span style="color:#e6db74">&#39;r&#39;</span>) <span style="color:#66d9ef">as</span> csv_file:
+    reader_obj <span style="color:#f92672">=</span> csv<span style="color:#f92672">.</span>reader(csv_file,delimiter <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;,&#39;</span>)
+    <span style="color:#66d9ef">for</span> row <span style="color:#f92672">in</span> reader_obj:
+        <span style="color:#66d9ef">print</span>(row)
+</code></pre></div><p>কোডটির আউটপুট হবে নিচের মত –</p>
+<pre><code>['Name','Age','Salary']
+['Ashik','24','20000']
+['Sumon','28','22000']
+['Mamun','34','40000']
+</code></pre><p>প্রোগ্রামটি ব্যাখ্যা করা যাক। Import সেকশনে আমরা csv লাইব্রেরী Import করেছি। এরপর open() ফাংশনের মাধ্যমে salary.csv কে রিড মোডে csv_file নামের অবজেক্টে রুপান্তর করা হয়েছে। csv_file দ্বারা একটি রিডার অবজেক্ট তৈরি করেছি। reader() মেথডের দুটি প্যারামিটারের মধ্যে delimiter টি অপশনাল। তবে কমা ছাড়া অন্য delimiter এর ক্ষেত্রে ব্যবহার করাই উত্তম। এবার ফর লুপের দ্বারা ফাইলটির একটি করে লাইন পড়া ও প্রিন্ট করা হয়েছে যেগুলো একেকটি লিস্ট অবজেক্ট। চাইলে DictReader() এর মাদ্ধমেও রিড করা যায়।</p>
+<h3 id="কভব-রইট-করত-হয">কিভাবে রাইট করতে হয়?</h3>
+<p>ধরা যাক salary.csv ফাইলটিতে Ankar নামের একজন বাক্তি যুক্ত হবেন যার বয়স 21 এবং বেতন 18000। তাহলে ফাইলটিকে append মোডে ওপেন করতে হবে। তারপর writer অবজেক্ট তৈরি করে writerow() মেথডের মাধ্যমে রাইট করা যাবে। আবার writerows() এর মাধ্যমে একাধিক সারি যুক্ত করা যায়।</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">import</span> csv 
+<span style="color:#66d9ef">with</span> open(<span style="color:#e6db74">&#39;salary.csv&#39;</span>, <span style="color:#e6db74">&#39;a&#39;</span>, newline<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;&#39;</span>) <span style="color:#66d9ef">as</span> file:
+    writer <span style="color:#f92672">=</span> csv<span style="color:#f92672">.</span>writer(file)
+    writer<span style="color:#f92672">.</span>writerow([<span style="color:#e6db74">&#34;Ankar&#34;</span>, <span style="color:#e6db74">&#34;21&#34;</span>, <span style="color:#e6db74">&#34;18000&#34;</span>])
+</code></pre></div><h3 id="সব-শষ">সব শেষে</h3>
+<p>এই লেখাটি এই পর্যন্তই। আরও জানতে গুগলে সার্চ করুন। এই লেখাটি অবতরনা মাত্র। পাইথনে csv ফাইল নিয়ে কাজ করার জন্য বেশকটি লাইব্রেরী আছে। সেগুলো দেখতে পারেন।</p>
+<p><em>[বিঃদ্রঃ এই লেখাটি আমি লিখেছিলাম যখন আমি দ্বাদশ শ্রেণির শিক্ষার্থী। লেখাটি অত্যন্ত অপাঠ্য। কিন্তু আবেগ থেকেই লেখাটির কোন পরিবর্তন করলাম না।]</em></p>
+
+</div>
+
+<h2>Comments</h2>
+
+<div id="disqus_thread"></div>
+<script>
+
+
+
+
+
+(function() { 
+var d = document, s = d.createElement('script');
+s.src = 'https://suvashkumar-xyz.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  </main>
+
+  <footer>
+  <div>
+    &copy; Suvash Kumar 2021
+    
+
+
+    &middot; <a href="/terms-and-conditions/">Terms & Conditions</a>
+  </div>
+</footer>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js"
+          integrity="sha256-MAgcygDRahs+F/Nk5Vz387whB4kSK9NXlDN3w58LLq0="
+          crossorigin="anonymous"></script>
+
+  <script src="/js/blog.js"></script>
+
+  
+</body>
+</html>
