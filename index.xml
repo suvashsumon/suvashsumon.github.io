@@ -4,10 +4,25 @@
     <title>Suvash Kumar</title>
     <link>https://suvashsumon.github.io/</link>
     <description>Recent content on Suvash Kumar</description>
-    <generator>Hugo -- 0.134.1</generator>
+    <generator>Hugo -- 0.135.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 18 Sep 2024 01:06:09 +0600</lastBuildDate>
+    <lastBuildDate>Wed, 02 Oct 2024 12:26:38 +0600</lastBuildDate>
     <atom:link href="https://suvashsumon.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Word Count Program in Hadoop</title>
+      <link>https://suvashsumon.github.io/post/word-count-program-in-hadoop/</link>
+      <pubDate>Wed, 02 Oct 2024 12:26:38 +0600</pubDate>
+      <guid>https://suvashsumon.github.io/post/word-count-program-in-hadoop/</guid>
+      <description>&lt;h1 id=&#34;0-overview&#34;&gt;0. Overview&lt;/h1&gt;
+&lt;p&gt;This tutorial will guide you through building a Word Count program using the Hadoop MapReduce framework. The basic idea is to store the input file in the HDFS structure of Hadoop and run the program from the local machine. The program will read this input file, count the number of words, and write the result back to HDFS.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Dockerize a Laravel 11 Application</title>
+      <link>https://suvashsumon.github.io/post/dockarize-laravel-11-application/</link>
+      <pubDate>Wed, 18 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://suvashsumon.github.io/post/dockarize-laravel-11-application/</guid>
+      <description>&lt;p&gt;Dockerizing a Laravel 11 application provides a consistent development environment, ensuring your application runs the same across different systems. This is especially useful in teams where developers may have different system configurations or when deploying to production. In this guide, we’ll walk through the steps to Dockerize a Laravel 11 application from scratch.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Dockarize a Laravel 11 Application</title>
       <link>https://suvashsumon.github.io/post/dockarize-a-laravel-11-application/</link>
@@ -243,12 +258,12 @@
       <description>&lt;p&gt;প্রোগ্রামিং লাংগুয়েজ দিয়ে ডাটাবেজ হ্যান্ডল করা একটা অতি সাধারণ ব্যাপার। তবে এম এস এক্সেল শিট হ্যান্ডল করা খুব বেশি পরিচিত নয়। এই ব্লগটিতে আমি চেষ্টা করব পাইথন দিয়ে এম এস এক্সেল শিট হ্যান্ডল করার কৌশল আলোচনা করতে। হয়তো আপনার কখনও দরকার পড়বে না, অথবা পড়বে। যদি আপনি ব্লগটি শেষ পর্যন্ত পড়তে চান তো স্বাগতম। চলুন শুরু করা যাক।&lt;/p&gt;</description>
     </item>
     <item>
-      <title>About Me</title>
+      <title></title>
       <link>https://suvashsumon.github.io/about-me/</link>
-      <pubDate>Thu, 23 Jul 2020 00:06:26 +0600</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://suvashsumon.github.io/about-me/</guid>
-      <description>&lt;hr&gt;
-&lt;p&gt;Thanks for visiting this site. I am sure you know that this is a personal blog site of Suvash Kumar.&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;about-me&#34;&gt;About Me&lt;/h2&gt;
+&lt;p&gt;Hi, I&amp;rsquo;m &lt;strong&gt;Suvash Kumar&lt;/strong&gt;, a student of Computer Science and Engineering at the University of Rajshahi, and a former Junior Software Engineer at Tinkers Technologies Limited.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -2,14 +2,35 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://suvashsumon.github.io/categories/</loc>
+    <lastmod>2024-10-02T12:26:38+06:00</lastmod>
+  </url><url>
+    <loc>https://suvashsumon.github.io/tags/distributed-system/</loc>
+    <lastmod>2024-10-02T12:26:38+06:00</lastmod>
+  </url><url>
+    <loc>https://suvashsumon.github.io/categories/distributed-system/</loc>
+    <lastmod>2024-10-02T12:26:38+06:00</lastmod>
+  </url><url>
+    <loc>https://suvashsumon.github.io/tags/hadoop/</loc>
+    <lastmod>2024-10-02T12:26:38+06:00</lastmod>
+  </url><url>
+    <loc>https://suvashsumon.github.io/categories/hadoop/</loc>
+    <lastmod>2024-10-02T12:26:38+06:00</lastmod>
+  </url><url>
     <loc>https://suvashsumon.github.io/post/</loc>
-    <lastmod>2024-09-18T00:00:00+00:00</lastmod>
+    <lastmod>2024-10-02T12:26:38+06:00</lastmod>
   </url><url>
     <loc>https://suvashsumon.github.io/</loc>
-    <lastmod>2024-09-18T00:00:00+00:00</lastmod>
+    <lastmod>2024-10-02T12:26:38+06:00</lastmod>
   </url><url>
-    <loc>https://suvashsumon.github.io/categories/</loc>
-    <lastmod>2024-09-18T01:06:09+06:00</lastmod>
+    <loc>https://suvashsumon.github.io/tags/</loc>
+    <lastmod>2024-10-02T12:26:38+06:00</lastmod>
+  </url><url>
+    <loc>https://suvashsumon.github.io/post/word-count-program-in-hadoop/</loc>
+    <lastmod>2024-10-02T12:26:38+06:00</lastmod>
+  </url><url>
+    <loc>https://suvashsumon.github.io/post/dockarize-laravel-11-application/</loc>
+    <lastmod>2024-09-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://suvashsumon.github.io/post/dockarize-a-laravel-11-application/</loc>
     <lastmod>2024-09-18T01:06:09+06:00</lastmod>
@@ -24,9 +45,6 @@
     <lastmod>2024-09-18T01:06:09+06:00</lastmod>
   </url><url>
     <loc>https://suvashsumon.github.io/categories/laravel-11/</loc>
-    <lastmod>2024-09-18T01:06:09+06:00</lastmod>
-  </url><url>
-    <loc>https://suvashsumon.github.io/tags/</loc>
     <lastmod>2024-09-18T01:06:09+06:00</lastmod>
   </url><url>
     <loc>https://suvashsumon.github.io/categories/problem-solving/</loc>
@@ -201,7 +219,6 @@
     <lastmod>2020-07-23T10:54:55+06:00</lastmod>
   </url><url>
     <loc>https://suvashsumon.github.io/about-me/</loc>
-    <lastmod>2020-07-23T00:06:26+06:00</lastmod>
   </url><url>
     <loc>https://suvashsumon.github.io/series/</loc>
   </url>

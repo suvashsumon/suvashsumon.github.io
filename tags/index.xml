@@ -4,10 +4,24 @@
     <title>Tags on Suvash Kumar</title>
     <link>https://suvashsumon.github.io/tags/</link>
     <description>Recent content in Tags on Suvash Kumar</description>
-    <generator>Hugo -- 0.134.1</generator>
+    <generator>Hugo -- 0.135.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 18 Sep 2024 01:06:09 +0600</lastBuildDate>
+    <lastBuildDate>Wed, 02 Oct 2024 12:26:38 +0600</lastBuildDate>
     <atom:link href="https://suvashsumon.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Distributed-System</title>
+      <link>https://suvashsumon.github.io/tags/distributed-system/</link>
+      <pubDate>Wed, 02 Oct 2024 12:26:38 +0600</pubDate>
+      <guid>https://suvashsumon.github.io/tags/distributed-system/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hadoop</title>
+      <link>https://suvashsumon.github.io/tags/hadoop/</link>
+      <pubDate>Wed, 02 Oct 2024 12:26:38 +0600</pubDate>
+      <guid>https://suvashsumon.github.io/tags/hadoop/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Docker</title>
       <link>https://suvashsumon.github.io/tags/docker/</link>
